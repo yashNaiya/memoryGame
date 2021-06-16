@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h3 class="my-3 text-center">
+            Memory Game
+            <small class="text-muted">match the color from the grid</small>
+        </h3>
+        <div class="grid">
+        <div class="row">
+            <div data-color = 'red' class="column red color-hidden"></div>
+            <div data-color="pink" class="column pink color-hidden"></div>
+            <div data-color="green" class="column green color-hidden"></div>
+            <div data-color="blueviolet" class="column blueviolet color-hidden"></div>
+        </div>
+        <div class="row">
+            <div data-color="orange" class="column orange color-hidden"></div>
+            <div data-color="yellow" class="column yellow color-hidden"></div>
+            <div data-color = 'red'class="column red color-hidden"></div>
+            <div data-color="yellow" class="column yellow color-hidden"></div>
+        </div>
+        <div class="row">
+            <div data-color="blueviolet" class="column blueviolet color-hidden"></div>
+            <div data-color="pink" class="column pink color-hidden"></div>
+            <div data-color="green" class="column green color-hidden"></div>
+            <div data-color="orange" class="column orange color-hidden"></div>
+        </div>
+    </div>
+        
+    <h4 class="score" id="score"></h4>
+        <button class="rBtn" id="rBtn">Restart</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
