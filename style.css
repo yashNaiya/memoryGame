@@ -78,3 +78,9 @@ h3 small{
     background: #e5e5e5;
 }
 
+@media(max-width:415px){
+
+    .column{
+        width: 80px;
+        height: 80px;}
+}
